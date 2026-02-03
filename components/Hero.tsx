@@ -2,13 +2,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Gambar Unsplash yang lebih "Angkringan" (Vibe Malam & Grill) */}
+    <section className="relative min-h-[85vh] md:min-h-screen w-full flex items-center justify-center overflow-hidden py-20">
       <Image
         src="https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=2000&auto=format&fit=crop"
         alt="Angkringan Mokas Vibes"
         fill
-        className="object-cover brightness-[0.2] scale-105"
+        className="object-cover brightness-[0.2]"
         priority
       />
 
@@ -19,8 +18,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-2xl text-gray-400 font-medium tracking-wide">
-          Tempat curhat paling nyaman dengan pilihan sundukan legendaris sejak
-          2015.
+          Tempat nongkrong paling nyaman dengan pilihan sundukan legendaris
+          sejak 2015.
         </p>
       </div>
     </section>
