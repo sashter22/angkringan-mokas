@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "Tempat Nongkrong asyik di Magetan",
     "Kuliner dekat Madiun",
   ],
+  // BAGIAN VERIFIKASI GOOGLE CONSOLE
+  verification: {
+    google: "C7DTJi-DYv2phdD54oMvnPeDwqg86AaYDF0Hj2Fk2lY",
+  },
   openGraph: {
     title: "Angkringan Mokas Magetan",
     description: "Makan kenyang, hati senang, dompet tenang. Cek menu kami!",
