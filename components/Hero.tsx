@@ -2,16 +2,19 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[85vh] md:min-h-screen w-full flex items-center justify-center overflow-hidden py-20">
-      <Image
-        src="https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=2000&auto=format&fit=crop"
-        alt="Angkringan Mokas Vibes"
-        fill
-        className="object-cover brightness-[0.2]"
-        priority
-      />
+    <section className="relative w-full overflow-hidden bg-black pt-32 pb-16 md:pt-48 md:pb-32">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=2000&auto=format&fit=crop"
+          alt="Angkringan Mokas Vibes"
+          fill
+          className="object-cover brightness-[0.2]"
+          priority
+        />
+      </div>
 
-      <div className="relative z-10 text-center px-4 max-w-5xl">
+      {/* Konten Teks */}
+      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white italic tracking-tighter leading-tight mb-4">
           NONGKRONG <span className="text-yellow-500">ASIK</span> <br /> DI
           MOKAS
